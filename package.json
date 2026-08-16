@@ -1,0 +1,58 @@
+{
+  "name": "@swapnilraval077/create-my-next-app",
+  "version": "1.0.0",
+  "description": "Scaffold a production-oriented Next.js + React + TypeScript + MUI application with App Router, auth, and enterprise defaults.",
+  "keywords": [
+    "create-next-app",
+    "nextjs",
+    "react",
+    "typescript",
+    "mui",
+    "material-ui",
+    "app-router",
+    "boilerplate",
+    "generator",
+    "scaffold",
+    "cli"
+  ],
+  "license": "MIT",
+  "author": "Swapnil Raval swapnilraval077@gmail.com",
+  "homepage": "https://github.com/swapnilraval/create-my-next-app#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swapnilraval/create-my-next-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swapnilraval/create-my-next-app/issues"
+  },
+  "main": "src/index.js",
+  "bin": {
+    "create-my-next-app": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node --test tests/generator.test.js",
+    "pack:check": "npm pack --dry-run"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "cross-spawn": "^7.0.6",
+    "picocolors": "^1.1.1",
+    "prompts": "^2.4.2",
+    "validate-npm-package-name": "^5.0.1"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
