@@ -1,0 +1,11 @@
+node_modules/
+coverage/
+*.tgz
+.DS_Store
+Thumbs.db
+.idea/
+*.log
+npm-debug.log*
+.temp/
+tmp/
+config.bat

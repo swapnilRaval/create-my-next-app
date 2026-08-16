@@ -1,0 +1,9 @@
+{
+  "app": {
+    "name": "{{APP_TITLE}}"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "register": "Create account"
+  }
+}
